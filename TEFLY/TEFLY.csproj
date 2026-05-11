@@ -29,8 +29,4 @@
     <ProjectReference Include="..\TEFLY.BLL\TEFLY.BLL.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="ViewModels\" />
-  </ItemGroup>
-
 </Project>

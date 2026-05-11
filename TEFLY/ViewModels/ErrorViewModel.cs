@@ -1,4 +1,4 @@
-﻿namespace TEFLY.Models
+﻿namespace TEFLY.ViewModels
 {
     public class ErrorViewModel
     {

@@ -25,8 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Seeding\" />
-    <Folder Include="Repositories\" />
+    <None Include="Data\Seeding\Seeders.cs" />
   </ItemGroup>
 
 </Project>

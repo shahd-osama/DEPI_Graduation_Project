@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using TEFLY.Models;
+using TEFLY.ViewModels;
 
 namespace TEFLY.Controllers
 {
