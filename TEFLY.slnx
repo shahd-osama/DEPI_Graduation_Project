@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="TEFLY.BLL/TEFLY.BLL.csproj" />
+  <Project Path="TEFLY.DAL/TEFLY.DAL.csproj" />
+  <Project Path="TEFLY/TEFLY.csproj" />
+</Solution>
