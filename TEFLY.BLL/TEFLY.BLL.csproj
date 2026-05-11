@@ -28,9 +28,4 @@
     <ProjectReference Include="..\TEFLY.DAL\TEFLY.DAL.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Mapping\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>
