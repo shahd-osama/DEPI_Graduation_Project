@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TEFLY.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf2c15b39e424320501f57c261cedde364d7cd70")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2afd61f5575abdcff05f04350eb232aa0681cdb")]
 [assembly: System.Reflection.AssemblyProductAttribute("TEFLY.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TEFLY.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
