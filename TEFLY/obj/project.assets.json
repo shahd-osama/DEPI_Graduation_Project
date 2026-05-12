@@ -3227,23 +3227,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shahd\\.nuget\\packages\\": {},
+    "C:\\Users\\amira\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shahd\\source\\repos\\TEFLY\\TEFLY\\TEFLY.csproj",
+      "projectUniqueName": "D:\\NewDownloads\\VS&CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\TEFLY.csproj",
       "projectName": "TEFLY",
-      "projectPath": "C:\\Users\\shahd\\source\\repos\\TEFLY\\TEFLY\\TEFLY.csproj",
-      "packagesPath": "C:\\Users\\shahd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shahd\\source\\repos\\TEFLY\\TEFLY\\obj\\",
+      "projectPath": "D:\\NewDownloads\\VS&CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\TEFLY.csproj",
+      "packagesPath": "C:\\Users\\amira\\.nuget\\packages\\",
+      "outputPath": "D:\\NewDownloads\\VS&CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\shahd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\amira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3256,10 +3256,11 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\shahd\\source\\repos\\TEFLY\\TEFLY.BLL\\TEFLY.BLL.csproj": {
-              "projectPath": "C:\\Users\\shahd\\source\\repos\\TEFLY\\TEFLY.BLL\\TEFLY.BLL.csproj"
+            "D:\\NewDownloads\\VS&CB\\Repos\\DEPI_Graduation_Project\\TEFLY.BLL\\TEFLY.BLL.csproj": {
+              "projectPath": "D:\\NewDownloads\\VS&CB\\Repos\\DEPI_Graduation_Project\\TEFLY.BLL\\TEFLY.BLL.csproj"
             }
           }
         }
@@ -3279,10 +3280,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "AutoMapper": {
@@ -3341,7 +3343,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

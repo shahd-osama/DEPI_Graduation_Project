@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using TEFLY.DAL.Models;
 
 namespace TEFLY.DAL.Data
@@ -18,5 +17,8 @@ namespace TEFLY.DAL.Data
         {
             base.OnModelCreating(modelBuilder);
         }
+        public DbSet<Vaccine> Vaccines { get; set; }
+        public DbSet<VaccineSideEffect> VaccineSideEffects { get; set; }
+        public DbSet<VaccineEffect> VaccineEffects { get; set; }
     }
 }
