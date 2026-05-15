@@ -24,6 +24,9 @@ namespace TEFLY.DAL.Data
         public DbSet<VaccinationSchedule> VaccinationSchedules { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Notification> Notifications { get; set; }
+        public DbSet<HealthcareProvider> HealthcareProviders { get; set; }
+        public DbSet<AdverseReaction> AdverseReactions { get; set; }
+        public DbSet<VaccineInventory> VaccineInventories { get; set; }
 
     }
 }
