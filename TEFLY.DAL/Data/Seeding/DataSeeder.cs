@@ -1,10 +1,43 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using TEFLY.DAL.Models;
 
 namespace TEFLY.DAL.Data
 {
     public static class DataSeeder
     {
+        public static async Task SeedRolesAsync(IServiceProvider serviceProvider)
+        {
+            var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            string[] roles = { "Admin", "Parent", "HealthcareProvider" };
+            foreach (var role in roles)
+            {
+                if (!await roleManager.RoleExistsAsync(role))
+                    await roleManager.CreateAsync(new IdentityRole(role));
+            }
+        }
+
+        public static async Task SeedAdminAsync(IServiceProvider serviceProvider)
+        {
+            var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+            var adminEmail = "admin@tefly.com";
+            var adminUser = await userManager.FindByEmailAsync(adminEmail);
+            if (adminUser == null)
+            {
+                var admin = new ApplicationUser
+                {
+                    UserName = adminEmail,
+                    Email = adminEmail,
+                    Name = "System Admin",
+                    EmailConfirmed = true
+                };
+                var result = await userManager.CreateAsync(admin, "Admin@123");
+                if (result.Succeeded)
+                    await userManager.AddToRoleAsync(admin, "Admin");
+            }
+        }
+
         public static async Task SeedAsync(AppDbContext context)
         {
             if (!await context.VaccineSideEffects.AnyAsync())
