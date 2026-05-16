@@ -49,6 +49,11 @@ namespace TEFLY.BLL.DTOs
     // Notification DTO
     public class NotificationDto
     {
+        public int NotificationID { get; set; }
+        public string UserID { get; set; } = string.Empty;
+        public string? Message { get; set; }
+        public DateOnly Date { get; set; }
+        public string? Type { get; set; }
     }
 
     // Healthcare Provider DTO
@@ -64,11 +69,24 @@ namespace TEFLY.BLL.DTOs
     // Vaccination Record DTO
     public class VaccinationRecordDto
     {
+        public int RecordID { get; set; }
+        public int ChildID { get; set; }
+        public string ChildName { get; set; } = string.Empty;
+        public int VaccineID { get; set; }
+        public string VaccineName { get; set; } = string.Empty;
+        public int ProviderID { get; set; }
+        public string ProviderName { get; set; } = string.Empty;
+        public DateOnly DateGiven { get; set; }
     }
 
     // Vaccination Schedule DTO
     public class VaccinationScheduleDto
     {
+        public int ScheduleID { get; set; }
+        public int VaccineID { get; set; }
+        public string VaccineName { get; set; } = string.Empty;
+        public string AgeStage { get; set; } = string.Empty;
+        public int DoseNumber { get; set; }
     }
 
     // Vaccine Inventory DTO
@@ -90,6 +108,17 @@ namespace TEFLY.BLL.DTOs
     // Appointment DTO
     public class AppointmentDto
     {
+        public int AppointmentID { get; set; }
+        public int ChildID { get; set; }
+        public string ChildName { get; set; } = string.Empty;
+        public int VaccineID { get; set; }
+        public string VaccineName { get; set; } = string.Empty;
+        public int ProviderID { get; set; }
+        public string ProviderName { get; set; } = string.Empty;
+        public DateOnly Date { get; set; }
+        public TimeOnly? Time { get; set; }
+        public string Status { get; set; } = "Pending";
+        public string? Note { get; set; }
     }
 
     // Vaccine Effect DTO
