@@ -13,6 +13,8 @@ namespace TEFLY.DAL.Data
 
         // ── All 14 ERD entities ────────────────────────────────
         public DbSet<Child> Children { get; set; }
+        public DbSet<Complaint> Complaints { get; set; }
+        public DbSet<Awareness> AwarenessItems { get; set; }
         public DbSet<Vaccine> Vaccines { get; set; }
         public DbSet<VaccineSideEffect> VaccineSideEffects { get; set; }
         public DbSet<VaccineEffect> VaccineEffects { get; set; }
@@ -23,8 +25,7 @@ namespace TEFLY.DAL.Data
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<AdverseReaction> AdverseReactions { get; set; }
         public DbSet<VaccineInventory> VaccineInventories { get; set; }
-        public DbSet<Complaint> Complaints { get; set; }
-        public DbSet<Awareness> AwarenessItems { get; set; }
+     
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
