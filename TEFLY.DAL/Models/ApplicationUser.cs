@@ -20,6 +20,9 @@ namespace TEFLY.DAL.Models
         [MaxLength(250)]
         public string? Address { get; set; }
         public int? Age { get; set; }
+        public ICollection<Child> Children { get; set; } = new List<Child>();
+        public ICollection<Notification> Notifications { get; set; } = new List<Notification>();
+        public ICollection<Complaint> Complaints { get; set; } = new List<Complaint>();
 
     }
 

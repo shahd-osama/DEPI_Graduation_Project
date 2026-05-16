@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Data\Seeding\Seeders.cs" />
+    <None Include="Data\Seeding\DataSeeder.cs" />
   </ItemGroup>
 
 </Project>

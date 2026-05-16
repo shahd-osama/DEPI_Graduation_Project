@@ -9,6 +9,7 @@ namespace TEFLY.DAL.Data
 {
     public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
+        public AppDbContext() { }
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         // ── All 14 ERD entities ────────────────────────────────
