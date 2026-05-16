@@ -54,6 +54,11 @@ namespace TEFLY.BLL.DTOs
     // Healthcare Provider DTO
     public class HealthcareProviderDto
     {
+        public int ProviderID { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string? Type { get; set; }
+        public string? Location { get; set; }
+        public string? Phone { get; set; }
     }
 
     // Vaccination Record DTO
@@ -69,6 +74,12 @@ namespace TEFLY.BLL.DTOs
     // Vaccine Inventory DTO
     public class VaccineInventoryDto
     {
+        public int InventoryID { get; set; }
+        public int VaccineID { get; set; }
+        public string VaccineName { get; set; } = string.Empty;
+        public int ProviderID { get; set; }
+        public string ProviderName { get; set; } = string.Empty;
+        public int Quantity { get; set; }
     }
 
     // Awareness DTO
