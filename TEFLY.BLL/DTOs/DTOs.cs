@@ -20,7 +20,13 @@ namespace TEFLY.BLL.DTOs
     // Child DTO
     public class ChildDto
     {
-
+        public int ChildID { get; set; }
+        public string UserID { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
+        public int Age { get; set; }
+        public string? NationalID { get; set; }
+        public bool HasDiseases { get; set; }
+        public string? DiseasesDescription { get; set; }
     }
 
     // Vaccine DTO
@@ -41,9 +47,14 @@ namespace TEFLY.BLL.DTOs
         public string Status { get; set; } = "Reported";
     }
 
-    // Complaint DTO
+    // ── Complaint ──────────────────────────────────────────────
     public class ComplaintDto
     {
+        public int ComplaintID { get; set; }
+        public string UserID { get; set; } = string.Empty;
+        public string? Description { get; set; }
+        public string Status { get; set; } = "Open";
+        public DateOnly Date { get; set; }
     }
 
     // Notification DTO
@@ -85,6 +96,13 @@ namespace TEFLY.BLL.DTOs
     // Awareness DTO
     public class AwarenessDto
     {
+        public int ID { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string? Body { get; set; }
+        public string? Category { get; set; }
+        public string? Tags { get; set; }
+        public string? MediaUrl { get; set; }
+        public string Status { get; set; } = "Draft";
     }
 
     // Appointment DTO
