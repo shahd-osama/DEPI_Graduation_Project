@@ -22,10 +22,10 @@ namespace TEFLY.DAL.Models
 
         // ── Navigation ─────────────────────────────────────
         public ICollection<VaccineEffect> VaccineEffects { get; set; } = new List<VaccineEffect>();
-        //public ICollection<VaccinationSchedule> VaccinationSchedules { get; set; } = new List<VaccinationSchedule>();
-        //public ICollection<VaccinationRecord> VaccinationRecords { get; set; } = new List<VaccinationRecord>();
-        //public ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
-        //public ICollection<AdverseReaction> AdverseReactions { get; set; } = new List<AdverseReaction>();
-        //public ICollection<VaccineInventory> VaccineInventories { get; set; } = new List<VaccineInventory>()
+        public ICollection<VaccinationSchedule> VaccinationSchedules { get; set; } = new List<VaccinationSchedule>();
+        public ICollection<VaccinationRecord> VaccinationRecords { get; set; } = new List<VaccinationRecord>();
+        public ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
+        public ICollection<AdverseReaction> AdverseReactions { get; set; } = new List<AdverseReaction>();
+        public ICollection<VaccineInventory> VaccineInventories { get; set; } = new List<VaccineInventory>();
     }
 }

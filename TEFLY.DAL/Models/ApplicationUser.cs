@@ -21,6 +21,9 @@ namespace TEFLY.DAL.Models
         public string? Address { get; set; }
         public int? Age { get; set; }
 
+        // ── Navigation Properties for Entity Framework Relationships ──
+        public virtual ICollection<Child> Children { get; set; } = new HashSet<Child>();
+        public virtual ICollection<Complaint> Complaints { get; set; } = new HashSet<Complaint>();
+        public virtual ICollection<Notification> Notifications { get; set; } = new HashSet<Notification>();
     }
-
 }
