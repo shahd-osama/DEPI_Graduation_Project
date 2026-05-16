@@ -20,7 +20,7 @@ namespace TEFLY.DAL.Models
 
         public string? DosageInfo { get; set; }
 
-        // ── Navigation ───── ────────────────────────────────
+        // ── Navigation ────────────────────────────────────
         public ICollection<VaccineEffect> VaccineEffects { get; set; } = new List<VaccineEffect>();
         public ICollection<VaccinationSchedule> VaccinationSchedules { get; set; } = new List<VaccinationSchedule>();
         public ICollection<VaccinationRecord> VaccinationRecords { get; set; } = new List<VaccinationRecord>();

@@ -5,18 +5,18 @@ namespace TEFLY.DAL.Models
 {
     public class Child
     {
-        // ERD:: ChildID int PK
+        // ERD::  ChildID int PK
         [Key]
         public int ChildID { get; set; }
 
-        // ERD:: UserID int FK → User
+        // ERD::  UserID int FK → User
         [Required]
         public string UserID { get; set; } = string.Empty;
 
         [ForeignKey(nameof(UserID))]
         public ApplicationUser? User { get; set; }
 
-        // ERD:: Name varchar
+        // ERD::  Name varchar
         [Required, MaxLength(150)]
         public string Name { get; set; } = string.Empty;
 

@@ -8,11 +8,11 @@ namespace TEFLY.DAL.Models
 {
     public class Complaint
     {
-        // ERD:: ComplaintID int PK
+        // ERD::  ComplaintID int PK
         [Key]
         public int ComplaintID { get; set; }
 
-        // ERD:: UserID int FK → User
+        // ERD::  UserID int FK → User
         [Required]
         public string UserID { get; set; } = string.Empty;
 
