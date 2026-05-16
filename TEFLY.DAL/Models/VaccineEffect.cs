@@ -11,6 +11,7 @@ namespace TEFLY.DAL.Models
         [ForeignKey(nameof(VaccineID))]
         public Vaccine? Vaccine { get; set; }
 
+
         public int EffectID { get; set; }
         [ForeignKey(nameof(EffectID))]
         public VaccineSideEffect? SideEffect { get; set; }
