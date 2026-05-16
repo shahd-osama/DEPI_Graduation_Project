@@ -8,15 +8,23 @@ namespace TEFLY.DAL.Models
 {
     public class Complaint
     {
+        // ERD::  ComplaintID int PK
         [Key]
         public int ComplaintID { get; set; }
+ 
+        // ERD::  UserID int FK → User
         [Required]
         public string UserID { get; set; } = string.Empty;
+
         [ForeignKey(nameof(UserID))]
         public ApplicationUser? User { get; set; }
+ 
         public string? Description { get; set; }
-        [MaxLength(50)]
+ 
         public string Status { get; set; } = "Open";
+ 
         public DateOnly Date { get; set; }
+
     }
+ 
 }
