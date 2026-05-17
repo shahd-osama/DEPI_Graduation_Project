@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using TEFLY.DAL.Models;
+using TEFLY.BLL.DTOs;
 
 namespace TEFLY.BLL.Mapping
 {
@@ -16,7 +18,15 @@ namespace TEFLY.BLL.Mapping
                 .ForMember(d => d.PhoneNumber, o => o.MapFrom(s => s.Phone))
                 .ForMember(d => d.UserName, o => o.MapFrom(s => s.Email));
 
-            
+            // ── Child ────────────────────────────────────────
+            CreateMap<Child, ChildDto>().ReverseMap();
+
+            // ── Complaint ────────────────────────────────────
+            CreateMap<Complaint, ComplaintDto>().ReverseMap();
+
+            // ── Awareness ────────────────────────────────────
+            CreateMap<Awareness, AwarenessDto>().ReverseMap();
+
             // ── HealthcareProvider ───────────────────────────
             CreateMap<HealthcareProvider, HealthcareProviderDto>().ReverseMap();
 
