@@ -11,7 +11,7 @@ namespace TEFLY.BLL.Mapping
     {
         public MappingProfile()
         {
-        // ── ApplicationUser ──────────────────────────────
+        // ── ApplicationUser ───────────────────────────
             CreateMap<ApplicationUser, UserDto>()
                 .ForMember(d => d.Phone, o => o.MapFrom(s => s.PhoneNumber));
             CreateMap<UserDto, ApplicationUser>()
