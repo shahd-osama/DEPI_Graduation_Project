@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3B5FBE5-D60E-7CDD-E981-753791EDA627}|TEFLY\\TEFLY.csproj|d:\\newdownloads\\vs\u0026cb\\repos\\depi_graduation_project\\tefly\\viewmodels\\vaccineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3B5FBE5-D60E-7CDD-E981-753791EDA627}|TEFLY\\TEFLY.csproj|solutionrelative:tefly\\viewmodels\\vaccineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FDC9D71-0BDB-050F-DD3C-60B38F2CD3F4}|TEFLY.BLL\\TEFLY.BLL.csproj|d:\\newdownloads\\vs\u0026cb\\repos\\depi_graduation_project\\tefly.bll\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FDC9D71-0BDB-050F-DD3C-60B38F2CD3F4}|TEFLY.BLL\\TEFLY.BLL.csproj|solutionrelative:tefly.bll\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B5FBE5-D60E-7CDD-E981-753791EDA627}|TEFLY\\TEFLY.csproj|d:\\newdownloads\\vs\u0026cb\\repos\\depi_graduation_project\\tefly\\mapping\\viewmodelmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B5FBE5-D60E-7CDD-E981-753791EDA627}|TEFLY\\TEFLY.csproj|solutionrelative:tefly\\mapping\\viewmodelmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{675FCB97-D132-16BD-B5C0-98665DC51FFF}|TEFLY.DAL\\TEFLY.DAL.csproj|d:\\newdownloads\\vs\u0026cb\\repos\\depi_graduation_project\\tefly.dal\\models\\vaccineeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{675FCB97-D132-16BD-B5C0-98665DC51FFF}|TEFLY.DAL\\TEFLY.DAL.csproj|solutionrelative:tefly.dal\\models\\vaccineeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675FCB97-D132-16BD-B5C0-98665DC51FFF}|TEFLY.DAL\\TEFLY.DAL.csproj|d:\\newdownloads\\vs\u0026cb\\repos\\depi_graduation_project\\tefly.dal\\models\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675FCB97-D132-16BD-B5C0-98665DC51FFF}|TEFLY.DAL\\TEFLY.DAL.csproj|solutionrelative:tefly.dal\\models\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{675FCB97-D132-16BD-B5C0-98665DC51FFF}|TEFLY.DAL\\TEFLY.DAL.csproj|d:\\newdownloads\\vs\u0026cb\\repos\\depi_graduation_project\\tefly.dal\\models\\vaccinesideeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{675FCB97-D132-16BD-B5C0-98665DC51FFF}|TEFLY.DAL\\TEFLY.DAL.csproj|solutionrelative:tefly.dal\\models\\vaccinesideeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B5FBE5-D60E-7CDD-E981-753791EDA627}|TEFLY\\TEFLY.csproj|d:\\newdownloads\\vs\u0026cb\\repos\\depi_graduation_project\\tefly\\viewmodels\\vaccineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B5FBE5-D60E-7CDD-E981-753791EDA627}|TEFLY\\TEFLY.csproj|solutionrelative:tefly\\viewmodels\\vaccineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675FCB97-D132-16BD-B5C0-98665DC51FFF}|TEFLY.DAL\\TEFLY.DAL.csproj|d:\\newdownloads\\vs\u0026cb\\repos\\depi_graduation_project\\tefly.dal\\models\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675FCB97-D132-16BD-B5C0-98665DC51FFF}|TEFLY.DAL\\TEFLY.DAL.csproj|solutionrelative:tefly.dal\\models\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3B5FBE5-D60E-7CDD-E981-753791EDA627}|TEFLY\\TEFLY.csproj|d:\\newdownloads\\vs\u0026cb\\repos\\depi_graduation_project\\tefly\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,99 +70,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 38,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VaccineViewModel.cs",
-              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\ViewModels\\VaccineViewModel.cs",
-              "RelativeDocumentMoniker": "TEFLY\\ViewModels\\VaccineViewModel.cs",
-              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\ViewModels\\VaccineViewModel.cs",
-              "RelativeToolTip": "TEFLY\\ViewModels\\VaccineViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T14:34:35.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VaccineSideEffect.cs",
-              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\VaccineSideEffect.cs",
-              "RelativeDocumentMoniker": "TEFLY.DAL\\Models\\VaccineSideEffect.cs",
-              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\VaccineSideEffect.cs",
-              "RelativeToolTip": "TEFLY.DAL\\Models\\VaccineSideEffect.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T14:06:22.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VaccineEffect.cs",
-              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\VaccineEffect.cs",
-              "RelativeDocumentMoniker": "TEFLY.DAL\\Models\\VaccineEffect.cs",
-              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\VaccineEffect.cs",
-              "RelativeToolTip": "TEFLY.DAL\\Models\\VaccineEffect.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T13:57:24.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Vaccine.cs",
-              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\Vaccine.cs",
-              "RelativeDocumentMoniker": "TEFLY.DAL\\Models\\Vaccine.cs",
-              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\Vaccine.cs",
-              "RelativeToolTip": "TEFLY.DAL\\Models\\Vaccine.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T13:56:39.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "TEFLY\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "TEFLY\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-12T13:45:35.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "TEFLY\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "TEFLY\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-12T13:44:52.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\appsettings.json",
-              "RelativeDocumentMoniker": "TEFLY\\appsettings.json",
-              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\appsettings.json",
-              "RelativeToolTip": "TEFLY\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-12T13:39:07.041Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
@@ -309,7 +226,120 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.BLL\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "TEFLY.BLL\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.BLL\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "TEFLY.BLL\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T21:29:53.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewModelMappingProfile.cs",
+              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\Mapping\\ViewModelMappingProfile.cs",
+              "RelativeDocumentMoniker": "TEFLY\\Mapping\\ViewModelMappingProfile.cs",
+              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\Mapping\\ViewModelMappingProfile.cs",
+              "RelativeToolTip": "TEFLY\\Mapping\\ViewModelMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T21:29:31.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VaccineViewModel.cs",
+              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\ViewModels\\VaccineViewModel.cs",
+              "RelativeDocumentMoniker": "TEFLY\\ViewModels\\VaccineViewModel.cs",
+              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\ViewModels\\VaccineViewModel.cs",
+              "RelativeToolTip": "TEFLY\\ViewModels\\VaccineViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:34:35.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VaccineSideEffect.cs",
+              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\VaccineSideEffect.cs",
+              "RelativeDocumentMoniker": "TEFLY.DAL\\Models\\VaccineSideEffect.cs",
+              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\VaccineSideEffect.cs",
+              "RelativeToolTip": "TEFLY.DAL\\Models\\VaccineSideEffect.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:06:22.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VaccineEffect.cs",
+              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\VaccineEffect.cs",
+              "RelativeDocumentMoniker": "TEFLY.DAL\\Models\\VaccineEffect.cs",
+              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\VaccineEffect.cs",
+              "RelativeToolTip": "TEFLY.DAL\\Models\\VaccineEffect.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T13:57:24.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vaccine.cs",
+              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\Vaccine.cs",
+              "RelativeDocumentMoniker": "TEFLY.DAL\\Models\\Vaccine.cs",
+              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\Vaccine.cs",
+              "RelativeToolTip": "TEFLY.DAL\\Models\\Vaccine.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T13:56:39.543Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "TEFLY\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "TEFLY\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-12T13:45:35.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TEFLY\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TEFLY\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-12T13:44:52.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\appsettings.json",
+              "RelativeDocumentMoniker": "TEFLY\\appsettings.json",
+              "ToolTip": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\appsettings.json",
+              "RelativeToolTip": "TEFLY\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-12T13:39:07.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "TEFLY.DAL\\Data\\AppDbContext.cs",
@@ -317,12 +347,11 @@
               "RelativeToolTip": "TEFLY.DAL\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T16:15:32.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T16:15:32.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ignore.gitignore",
               "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\ignore.gitignore",
               "RelativeDocumentMoniker": "TEFLY\\ignore.gitignore",
@@ -330,12 +359,11 @@
               "RelativeToolTip": "TEFLY\\ignore.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-12T13:38:58.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T13:38:58.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.DAL\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "TEFLY.DAL\\Models\\ApplicationUser.cs",
@@ -343,12 +371,11 @@
               "RelativeToolTip": "TEFLY.DAL\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAiwA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T16:42:34.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T16:42:34.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY\\Program.cs",
               "RelativeDocumentMoniker": "TEFLY\\Program.cs",
@@ -356,12 +383,11 @@
               "RelativeToolTip": "TEFLY\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T16:29:35.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T16:29:35.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "DTOs.cs",
               "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.BLL\\DTOs\\DTOs.cs",
               "RelativeDocumentMoniker": "TEFLY.BLL\\DTOs\\DTOs.cs",
@@ -373,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "TEFLY.BLL.csproj",
               "DocumentMoniker": "D:\\NewDownloads\\VS\u0026CB\\Repos\\DEPI_Graduation_Project\\TEFLY.BLL\\TEFLY.BLL.csproj",
               "RelativeDocumentMoniker": "TEFLY.BLL\\TEFLY.BLL.csproj",
