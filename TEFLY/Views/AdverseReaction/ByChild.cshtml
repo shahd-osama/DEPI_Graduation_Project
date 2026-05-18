@@ -1,0 +1,36 @@
+﻿@using TEFLY.ViewModels
+@model IEnumerable<AdverseReactionViewModel>
+
+<h2>Reactions</h2>
+
+<a asp-action="Create" asp-route-childId="@ViewBag.ChildID" class="btn btn-danger mb-3">
+    Report Reaction
+</a>
+
+@if (!Model.Any())
+{
+    <p>No reactions yet.</p>
+}
+else
+{
+    foreach (var r in Model)
+    {
+        <div class="border p-2 mb-2">
+            <p>@r.Description</p>
+            <small>@r.Date</small>
+
+            <form asp-action="Delete" method="post" class="mt-2">
+                <input type="hidden" name="id" value="@r.ReactionID" />
+                <input type="hidden" name="childId" value="@ViewBag.ChildID" />
+                <button class="btn btn-sm btn-danger">Delete</button>
+            </form>
+        </div>
+    }
+}
+
+<script>
+    setTimeout(() => {
+        let msg = document.getElementById("msg");
+        if (msg) msg.style.display = "none";
+    }, 1000);
+</script>
