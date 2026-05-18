@@ -1,0 +1,53 @@
+﻿@using TEFLY.ViewModels
+@model ChildViewModel
+
+
+<h2>Edit Child</h2>
+
+<form asp-action="Edit">
+
+    <input type="hidden" asp-for="ChildID" />
+
+    <div class="mb-3">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Age</label>
+        <input asp-for="Age" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>National ID</label>
+        <input asp-for="NationalID" class="form-control" />
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="HasDiseases" class="form-check-input" id="hasDiseases" />
+        <label class="form-check-label">Has Diseases</label>
+    </div>
+
+    <div class="mb-3" id="diseasesBox">
+        <label>Diseases Description</label>
+        <textarea asp-for="DiseasesDescription" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save Changes</button>
+
+</form>
+
+<a asp-action="Index" class="btn btn-secondary mt-3">Back</a>
+
+<!-- بسيط JavaScript لإظهار/إخفاء الوصف -->
+<script>
+    const checkbox = document.getElementById("hasDiseases");
+    const box = document.getElementById("diseasesBox");
+
+    function toggleBox() {
+        box.style.display = checkbox.checked ? "block" : "none";
+    }
+
+    checkbox.addEventListener("change", toggleBox);
+    window.onload = toggleBox;
+</script>

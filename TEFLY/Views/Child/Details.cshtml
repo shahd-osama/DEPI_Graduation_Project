@@ -1,0 +1,27 @@
+﻿@using TEFLY.ViewModels
+@model ChildViewModel
+
+<h2>Child Details</h2>
+
+<div class="card p-3">
+
+    <p><strong>Name:</strong> @Model.Name</p>
+
+    <p><strong>Age:</strong> @Model.Age</p>
+
+    <p><strong>National ID:</strong> @Model.NationalID</p>
+
+    <p>
+        <strong>Has Diseases:</strong>
+        @(Model.HasDiseases ? "Yes" : "No")
+    </p>
+
+    @if (Model.HasDiseases)
+    {
+        <p><strong>Diseases Description:</strong> @Model.DiseasesDescription</p>
+    }
+
+</div>
+
+<a asp-action="Index" class="btn btn-secondary mt-3">Back</a>
+<a asp-action="Edit" asp-route-id="@Model.ChildID" class="btn btn-primary mt-3">Edit</a>

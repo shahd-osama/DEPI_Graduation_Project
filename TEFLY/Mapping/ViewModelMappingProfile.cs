@@ -13,8 +13,13 @@ namespace TEFLY.Mapping
             // CreateMap<SourceModel, DestinationViewModel>();
 
             // Notification
+            CreateMap<ChildDto, ChildViewModel>().ReverseMap();
+            CreateMap<AwarenessDto, AwarenessViewModel>().ReverseMap();
+            CreateMap<ComplaintDto, ComplaintViewModel>().ReverseMap();
+
             CreateMap<NotificationDto, NotificationViewModel>().ReverseMap();
             CreateMap<VaccinationRecordDto, VaccinationRecordViewModel>().ReverseMap();
+
 
         }
     }

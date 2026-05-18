@@ -1,0 +1,7 @@
+﻿@using TEFLY.ViewModels
+@model IEnumerable<AwarenessViewModel>
+
+@foreach (var a in Model)
+{
+    <a asp-action="Details" asp-route-id="@a.ID">@a.Title</a>
+}
