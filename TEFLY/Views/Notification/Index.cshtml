@@ -1,0 +1,7 @@
+﻿@using TEFLY.ViewModels
+@model IEnumerable<NotificationViewModel>
+
+@foreach (var n in Model)
+{
+    <p>@n.Message</p>
+}
