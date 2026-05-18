@@ -1,0 +1,19 @@
+﻿@using TEFLY.ViewModels
+@model AdverseReactionViewModel
+ 
+<form asp-action="Create">
+
+    <input type="hidden" asp-for="ChildID" />
+
+    <select asp-for="VaccineID" asp-items="ViewBag.Vaccines" class="form-control"></select>
+
+    <textarea asp-for="Description" class="form-control"></textarea>
+
+    <button class="btn btn-danger mt-2">Submit</button>
+
+</form>
+@* <form asp-action="Create">
+    <input type="hidden" asp-for="ChildID" />
+    <textarea asp-for="Description" class="form-control"></textarea>
+    <button class="btn btn-danger">Submit</button>
+</form> *@
