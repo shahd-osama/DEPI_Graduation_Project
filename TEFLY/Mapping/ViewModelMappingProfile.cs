@@ -1,4 +1,7 @@
 ﻿using AutoMapper;
+using TEFLY.BLL.DTOs;
+using TEFLY.ViewModels;
+
 
 namespace TEFLY.Mapping
 {
@@ -8,6 +11,11 @@ namespace TEFLY.Mapping
         {
             // Example mapping configuration:
             // CreateMap<SourceModel, DestinationViewModel>();
+
+            // Notification
+            CreateMap<NotificationDto, NotificationViewModel>().ReverseMap();
+            CreateMap<VaccinationRecordDto, VaccinationRecordViewModel>().ReverseMap();
+
         }
     }
 }

@@ -1,0 +1,7 @@
+﻿@using TEFLY.ViewModels
+@model VaccinationRecordViewModel
+
+<form asp-action="Create">
+    <select asp-for="VaccineID" asp-items="ViewBag.Vaccines"></select>
+    <button type="submit">Save</button>
+</form>

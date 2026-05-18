@@ -1,0 +1,11 @@
+﻿@using TEFLY.ViewModels
+@model IEnumerable<HealthcareProviderViewModel>
+
+<h2>Providers</h2>
+
+@foreach (var p in Model)
+{
+    <div>
+        <a asp-action="Details" asp-route-id="@p.ProviderID">@p.Name</a>
+    </div>
+}

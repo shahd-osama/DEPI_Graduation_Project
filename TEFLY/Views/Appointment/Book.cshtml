@@ -1,0 +1,14 @@
+﻿@using TEFLY.ViewModels
+@model AppointmentViewModel
+
+<form asp-action="Book">
+
+    <input type="hidden" asp-for="ChildID" value="@Model.ChildID" />
+
+    <input asp-for="Date" type="date" class="form-control" />
+
+    <select asp-for="VaccineID" asp-items="ViewBag.Vaccines" class="form-control"></select>
+
+    <button type="submit" class="btn btn-primary mt-2">Book</button>
+
+</form>

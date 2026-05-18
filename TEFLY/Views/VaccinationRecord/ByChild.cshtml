@@ -1,0 +1,14 @@
+﻿@using TEFLY.ViewModels
+@model IEnumerable<VaccinationRecordViewModel>
+
+<h2>Records</h2>
+
+<table class="table">
+    @foreach (var r in Model)
+    {
+        <tr>
+            <td>@r.Vaccine.Name</td>
+            <td>@r.DateGiven</td>
+        </tr>
+    }
+</table>
