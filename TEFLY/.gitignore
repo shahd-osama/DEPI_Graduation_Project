@@ -1,0 +1,19 @@
+﻿.vs/
+bin/
+obj/
+appsettings.json
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+
+# Build results
+obj/
+bin/
+
+# NuGet
+*.nuget.cache
+*.dgspec.json
+project.nuget.cache
+packages/

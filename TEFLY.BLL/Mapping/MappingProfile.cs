@@ -67,6 +67,15 @@ namespace TEFLY.BLL.Mapping
 
             // ── Notification ─────────────────────────────────
             CreateMap<Notification, NotificationDto>().ReverseMap();
+            CreateMap<Vaccine, VaccineDto>().ReverseMap();
+
+            CreateMap<VaccineSideEffect, VaccineSideEffectDto>().ReverseMap();
+
+            // ── Vaccine ──────────────────────────────────────
+            CreateMap<Vaccine, VaccineDto>().ReverseMap();
+
+            // ── VaccineSideEffect ────────────────────────────
+            CreateMap<VaccineSideEffect, VaccineSideEffectDto>().ReverseMap();
         }
     }
 }

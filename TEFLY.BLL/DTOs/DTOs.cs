@@ -32,6 +32,11 @@ namespace TEFLY.BLL.DTOs
     // Vaccine DTO
     public class VaccineDto
     {
+        public int VaccineID { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string? Description { get; set; }
+        public string? RecommendedAge { get; set; }
+        public string? DosageInfo { get; set; }
     }
 
     // Adverse Reaction DTO
@@ -140,12 +145,16 @@ namespace TEFLY.BLL.DTOs
     }
 
     // Vaccine Effect DTO
-    public class VaccineEffectDto
-    {
-    }
+    //public class VaccineEffectDto
+    //{
+    //}
 
     // Vaccine Side Effect DTO
     public class VaccineSideEffectDto
     {
+        public int EffectID { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string? Description { get; set; }
+        public bool IsCommon { get; set; }
     }
 }
