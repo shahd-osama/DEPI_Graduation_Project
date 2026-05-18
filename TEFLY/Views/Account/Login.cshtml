@@ -1,19 +1,33 @@
 ﻿@model TEFLY.ViewModels.LoginViewModel
 
-<h2>Login</h2>
+@section Styles {
+    <link rel="stylesheet" href="~/css/auth-character.css" asp-append-version="true" />
+}
 
-<form asp-action="Login" method="post">
-    @Html.AntiForgeryToken()
+<div class="auth-with-mascot">
+    <aside class="auth-with-mascot__mascot">
+        <partial name="_AuthCharacter" />
+    </aside>
+    <div class="auth-with-mascot__form">
+        <h2>Login</h2>
+        <form asp-action="Login" method="post">
+            @Html.AntiForgeryToken()
 
-    <input asp-for="Email" placeholder="Email" />
-    <span asp-validation-for="Email"></span>
+            <input asp-for="Email" placeholder="Email" class="form-control mb-2" required />
+            <span asp-validation-for="Email"></span>
 
-    <input asp-for="Password" type="password" placeholder="Password" />
-    <span asp-validation-for="Password"></span>
+            <input asp-for="Password" type="password" placeholder="Password" class="form-control mb-2" required />
+            <span asp-validation-for="Password"></span>
 
-    <label>
-        <input asp-for="RememberMe" /> Remember Me
-    </label>
+            <label class="d-block my-2">
+                <input asp-for="RememberMe" /> Remember Me
+            </label>
 
-    <button type="submit">Login</button>
-</form>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/auth-character.js" asp-append-version="true"></script>
+}

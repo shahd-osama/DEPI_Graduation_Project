@@ -1,7 +1,15 @@
 ﻿@model TEFLY.ViewModels.RegisterViewModel
 
+@section Styles {
+    <link rel="stylesheet" href="~/css/auth-character.css" asp-append-version="true" />
+}
 
-<h2>Register</h2>
+<div class="auth-with-mascot">
+    <aside class="auth-with-mascot__mascot">
+        <partial name="_AuthCharacter" />
+    </aside>
+    <div class="auth-with-mascot__form">
+        <h2>Register</h2>
 
 <form asp-action="Register" method="post">
     @Html.AntiForgeryToken()
@@ -39,5 +47,11 @@
     <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
      <br />
 
-    <button type="submit">Register</button>
+    <button type="submit" class="btn btn-primary">Register</button>
 </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/auth-character.js" asp-append-version="true"></script>
+}

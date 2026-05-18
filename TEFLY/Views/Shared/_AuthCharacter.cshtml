@@ -1,0 +1,91 @@
+@* Interactive Tefly mascot for Login / Register — include auth-character.css + auth-character.js *@
+<div class="tefly-mascot" data-tefly-mascot aria-hidden="true">
+    <svg viewBox="0 0 280 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Friendly Tefly helper">
+        <defs>
+            <radialGradient id="teflyGlow" cx="50%" cy="45%" r="55%">
+                <stop offset="0%" stop-color="#f5c6d6" stop-opacity="0.5" />
+                <stop offset="55%" stop-color="#d4c5e8" stop-opacity="0.35" />
+                <stop offset="100%" stop-color="#a8d4ea" stop-opacity="0" />
+            </radialGradient>
+        </defs>
+
+        <ellipse class="tefly-mascot__glow" cx="140" cy="200" rx="120" ry="150" />
+
+        <g class="tefly-mascot__root">
+            <g class="tefly-mascot__sway">
+                <!-- Legs & shoes -->
+                <ellipse class="tefly-mascot__shoe" cx="108" cy="328" rx="22" ry="12" />
+                <ellipse class="tefly-mascot__shoe" cx="172" cy="328" rx="22" ry="12" />
+                <path class="tefly-mascot__body" d="M 98 248 Q 88 290 95 318 L 118 318 Q 125 285 128 255 Z" />
+                <path class="tefly-mascot__body" d="M 182 248 Q 192 290 185 318 L 162 318 Q 155 285 152 255 Z" />
+
+                <!-- Torso & overalls -->
+                <ellipse class="tefly-mascot__shirt" cx="140" cy="248" rx="52" ry="48" />
+                <path class="tefly-mascot__overalls" d="M 95 230 Q 95 285 98 305 L 182 305 Q 185 285 185 230 Q 168 218 140 222 Q 112 218 95 230 Z" />
+                <path class="tefly-mascot__strap" d="M 118 222 L 108 195 L 115 192 L 128 218 Z" />
+                <path class="tefly-mascot__strap" d="M 162 222 L 172 195 L 165 192 L 152 218 Z" />
+                <circle fill="#fffefb" stroke="#8b7e9e" stroke-width="1.5" cx="140" cy="252" r="6" />
+
+                <!-- Arms -->
+                <path class="tefly-mascot__body" fill="var(--tefly-skin)" d="M 72 238 Q 52 252 48 272 Q 55 278 62 268 Q 68 255 88 248 Z" />
+                <path class="tefly-mascot__body" fill="var(--tefly-skin)" d="M 208 238 Q 228 252 232 272 Q 225 278 218 268 Q 212 255 192 248 Z" />
+
+                <!-- Head group -->
+                <g class="tefly-mascot__head">
+                    <path class="tefly-mascot__hair-back" d="M 72 118 Q 68 78 100 52 Q 140 28 180 52 Q 212 78 208 118 Q 205 95 140 88 Q 75 95 72 118 Z" />
+
+                    <ellipse class="tefly-mascot__ear" cx="78" cy="128" rx="14" ry="18" />
+                    <ellipse class="tefly-mascot__ear" cx="202" cy="128" rx="14" ry="18" />
+
+                    <ellipse class="tefly-mascot__face" cx="140" cy="125" rx="72" ry="78" />
+
+                    <ellipse class="tefly-mascot__cheek" cx="98" cy="142" rx="14" ry="9" />
+                    <ellipse class="tefly-mascot__cheek" cx="182" cy="142" rx="14" ry="9" />
+
+                    <!-- Left eye -->
+                    <g data-eye="left" data-cx="108" data-cy="118">
+                        <ellipse class="tefly-mascot__eye-white" cx="108" cy="118" rx="22" ry="24" />
+                        <g data-pupil="left">
+                            <circle class="tefly-mascot__pupil" cx="108" cy="120" r="9" />
+                            <circle class="tefly-mascot__pupil-highlight" cx="112" cy="116" r="3.5" />
+                        </g>
+                        <path class="tefly-mascot__eye-closed" d="M 90 118 Q 108 128 126 118" />
+                        <rect class="tefly-mascot__eyelid tefly-mascot__eyelid--left" x="86" y="94" width="44" height="48" rx="20" />
+                    </g>
+
+                    <!-- Right eye -->
+                    <g data-eye="right" data-cx="172" data-cy="118">
+                        <ellipse class="tefly-mascot__eye-white" cx="172" cy="118" rx="22" ry="24" />
+                        <g data-pupil="right">
+                            <circle class="tefly-mascot__pupil" cx="172" cy="120" r="9" />
+                            <circle class="tefly-mascot__pupil-highlight" cx="176" cy="116" r="3.5" />
+                        </g>
+                        <path class="tefly-mascot__eye-closed" d="M 154 118 Q 172 128 190 118" />
+                        <rect class="tefly-mascot__eyelid tefly-mascot__eyelid--right" x="150" y="94" width="44" height="48" rx="20" />
+                    </g>
+
+                    <!-- Sparkles in eyes -->
+                    <path class="tefly-mascot__sparkle" d="M 100 108 l2 4 4 2-4 2-2 4-2-4-4-2 4-2z" />
+                    <path class="tefly-mascot__sparkle tefly-mascot__sparkle--2" d="M 178 106 l1.5 3 3 1.5-3 1.5-1.5 3-1.5-3-3-1.5 3-1.5z" />
+
+                    <!-- Nose -->
+                    <ellipse fill="#f5d0b8" cx="140" cy="138" rx="5" ry="4" />
+
+                    <!-- Mouths -->
+                    <path class="tefly-mascot__mouth tefly-mascot__mouth--smile" d="M 122 152 Q 140 165 158 152" />
+                    <path class="tefly-mascot__mouth tefly-mascot__mouth--shy" d="M 128 156 Q 140 148 152 156" />
+                    <path class="tefly-mascot__mouth tefly-mascot__mouth--happy" d="M 118 150 Q 140 172 162 150" />
+
+                    <!-- Hair tuft -->
+                    <path class="tefly-mascot__hair-back" d="M 128 48 Q 140 32 152 48 Q 145 58 140 52 Q 135 58 128 48 Z" />
+
+                    <!-- Shy hand (covers eyes) -->
+                    <g class="tefly-mascot__hand">
+                        <ellipse cx="195" cy="95" rx="28" ry="32" />
+                        <path fill="none" stroke="#8b7e9e" stroke-width="1.5" d="M 178 88 Q 195 78 212 88" opacity="0.4" />
+                    </g>
+                </g>
+            </g>
+        </g>
+    </svg>
+</div>

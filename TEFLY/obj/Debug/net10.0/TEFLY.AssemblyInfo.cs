@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TEFLY")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3d41901d17a700426a1b86845e19bc875a3a16f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cc35ca00799a78083140bd201f5e44f165f907b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TEFLY")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TEFLY")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
