@@ -154,7 +154,7 @@ TEFLY follows a strictly enforced **3-Layer Architecture** implemented as separa
 | `Complaint` | User-submitted complaint for Admin review |
 | `Awareness` | Health article with Status (Published / Draft) and Category |
 
-### Vaccination Schedule â€” WHO EPI Egypt
+### Vaccination Schedule " WHO EPI Egypt
 
 | Vaccine | Age Stage | Dose |
 | :--- | :--- | :--- |
@@ -218,7 +218,7 @@ TEFLY follows a strictly enforced **3-Layer Architecture** implemented as separa
 
 ### Typography
 
-- **Primary Font:** Cairo (Google Fonts) â€” supports full Arabic/English bilingual rendering.
+- **Primary Font:** Cairo (Google Fonts) ” supports full Arabic/English bilingual rendering.
 - **Weights Used:** 300, 400, 500, 600, 700, 800, 900.
 - **Direction Support:** RTL (Arabic) and LTR (English) via `dir` attribute on `<html>`.
 
