@@ -1,4 +1,4 @@
-# TEFLY â€” Centralized Pediatric Health & Vaccination Platform
+# TEFLY  Centralized Pediatric Health & Vaccination Platform
 
 ![.NET](https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core_10_MVC-512BD4?style=flat-square&logo=dotnet&logoColor=white)
