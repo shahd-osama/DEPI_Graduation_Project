@@ -279,27 +279,27 @@ Update `appsettings.Development.json`:
 ## Project Structure
 
 ```
-VaccinationTracker/               â† Solution root
+VaccinationTracker/                Solution root
 ‚
  VaccinationTracker.sln
 ‚
- VaccinationTracker.DAL/       â† Data Access Layer
-‚    Models/                   â† Domain entities
+ VaccinationTracker.DAL/        Data Access Layer
+‚    Models/                    Domain entities
 ‚    Data/
 ‚   ‚    VaccinationContext.cs
 ‚   ‚    DbSeeder.cs
 ‚   ‚    Migrations/
-‚    Repositories/             â† Generic + specific repositories
+‚    Repositories/              Generic + specific repositories
 ‚    UnitOfWork/
 ‚
- VaccinationTracker.BLL/       â† Business Logic Layer
+ VaccinationTracker.BLL/        Business Logic Layer
 ‚    DTOs/
 ‚    Services/
 ‚   ‚    Interfaces/
 ‚   ‚    Implementations/
-‚    Mappings/                 â† AutoMapper profiles (BLL DTOs)
+‚    Mappings/                  AutoMapper profiles (BLL DTOs)
 ‚
- TEFLY/           â† Presentation Layer (MVC)
+ TEFLY/            Presentation Layer (MVC)
      Controllers/
     ‚    HomeController.cs
     ‚    ChildController.cs
@@ -321,7 +321,7 @@ VaccinationTracker/               â† Solution root
     ‚       ‚    AwarenesssController.cs
     ‚        Views/
      ViewModels/
-     Mappings/                 â† AutoMapper profiles (ViewModels)
+     Mappings/                  AutoMapper profiles (ViewModels)
      Views/
      wwwroot/
 ```
