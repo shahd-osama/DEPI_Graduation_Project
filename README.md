@@ -190,17 +190,17 @@ TEFLY follows a strictly enforced **3-Layer Architecture** implemented as separa
 
 | View | Path | Status |
 | :--- | :--- | :--- |
-| Shared Layout | `Views/Shared/_Layout.cshtml` | âœ… Complete |
-| Home / Welcome | `Views/Home/` | âœ… Complete |
-| User Dashboard | `Views/Home/Dashboard.cshtml` | âœ… Complete |
-| Children | `Views/Child/` | âœ… Complete |
-| Vaccination Records | `Views/VaccinationRecord/` | âœ… Complete |
-| Appointments | `Views/Appointment/` | âœ… Complete |
-| Adverse Reactions | `Views/AdverseReaction/` | âœ… Complete |
-| Vaccine Side Effects | `Views/VaccineSideEffect/` | âœ… Complete |
-| Complaints | `Views/Complaint/` | âœ… Complete |
-| Health Awareness (User) | `Views/Awareness/` | âœ… Complete |
-| Admin â€” All Entities | `Areas/Admin/Views/` | âœ… Complete |
+| Shared Layout | `Views/Shared/_Layout.cshtml` |  Complete |
+| Home / Welcome | `Views/Home/` |  Complete |
+| User Dashboard | `Views/Home/Dashboard.cshtml` |  Complete |
+| Children | `Views/Child/` |  Complete |
+| Vaccination Records | `Views/VaccinationRecord/` |  Complete |
+| Appointments | `Views/Appointment/` |  Complete |
+| Adverse Reactions | `Views/AdverseReaction/` |  Complete |
+| Vaccine Side Effects | `Views/VaccineSideEffect/` |  Complete |
+| Complaints | `Views/Complaint/` |  Complete |
+| Health Awareness (User) | `Views/Awareness/` |  Complete |
+| Admin â€” All Entities | `Areas/Admin/Views/` |  Complete |
 
 ---
 
@@ -259,7 +259,7 @@ dotnet run --project VaccinationTracker
 The `DbSeeder` runs automatically on first startup and seeds:
 - Admin and default User accounts
 - 13 vaccines aligned with the WHO EPI Egypt schedule
-- Vaccination schedules (Birth â†’ 18 months)
+- Vaccination schedules (Birth 18 months)
 - Sample Health Awareness articles
 
 ### Configuration
@@ -332,9 +332,9 @@ VaccinationTracker/               â† Solution root
 
 | Standard | Scope |
 | :--- | :--- |
-| WHO Expanded Programme on Immunization (EPI) Egypt | Vaccination schedule (13 vaccines, Birth â†’ 18 months) |
+| WHO Expanded Programme on Immunization (EPI) Egypt | Vaccination schedule (13 vaccines, Birth  18 months) |
 | OWASP Top 10 | Anti-Forgery tokens, server-side validation, role-based authorization |
-| Egypt Vision 2030 â€” Digital Healthcare Pillar | Strategic alignment |
+| Egypt Vision 2030  Digital Healthcare Pillar | Strategic alignment |
 
 ---
 
@@ -342,15 +342,15 @@ VaccinationTracker/               â† Solution root
 
 | Goal | Alignment |
 | :--- | :--- |
-| **SDG 3 â€” Good Health and Well-Being** | Lifetime vaccination tracking per child, adverse reaction reporting, and health awareness content. |
-| **SDG 9 â€” Industry, Innovation, and Infrastructure** | Replacing paper-based systems with a scalable digital platform for national healthcare infrastructure. |
-| **SDG 17 â€” Partnerships for the Goals** | Designed for Ministry of Health integration and WHO schedule compliance. |
+| **SDG 3  Good Health and Well-Being** | Lifetime vaccination tracking per child, adverse reaction reporting, and health awareness content. |
+| **SDG 9  Industry, Innovation, and Infrastructure** | Replacing paper-based systems with a scalable digital platform for national healthcare infrastructure. |
+| **SDG 17  Partnerships for the Goals** | Designed for Ministry of Health integration and WHO schedule compliance. |
 
 ---
 
 ## Team
 
-**PentApex** â€” Egypt
+**PentApex**  Egypt
 
 Developed under the **Digital Egypt Pioneers Initiative (DEPI)** as a graduation project aligned with Egypt Vision 2030.
 
@@ -366,8 +366,8 @@ Developed under the **Digital Egypt Pioneers Initiative (DEPI)** as a graduation
 
 This repository and all its contents are the intellectual property of the PentApex development team, submitted as a graduation project under the DEPI initiative. Unauthorized reproduction, distribution, or commercial use is strictly prohibited.
 
-&copy; 2026 PentApex â€” All rights reserved.
+&copy; 2026 PentApex  All rights reserved.
 
 ---
 
-*TEFLY â€” Protecting Egypt's children, one vaccination at a time.*
+*TEFLY  Protecting Egypt's children, one vaccination at a time.*
