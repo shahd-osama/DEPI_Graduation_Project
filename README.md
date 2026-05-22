@@ -280,50 +280,50 @@ Update `appsettings.Development.json`:
 
 ```
 VaccinationTracker/               â† Solution root
-â”‚
-â”œâ”€â”€ VaccinationTracker.sln
-â”‚
-â”œâ”€â”€ VaccinationTracker.DAL/       â† Data Access Layer
-â”‚   â”œâ”€â”€ Models/                   â† Domain entities
-â”‚   â”œâ”€â”€ Data/
-â”‚   â”‚   â”œâ”€â”€ VaccinationContext.cs
-â”‚   â”‚   â”œâ”€â”€ DbSeeder.cs
-â”‚   â”‚   â””â”€â”€ Migrations/
-â”‚   â”œâ”€â”€ Repositories/             â† Generic + specific repositories
-â”‚   â””â”€â”€ UnitOfWork/
-â”‚
-â”œâ”€â”€ VaccinationTracker.BLL/       â† Business Logic Layer
-â”‚   â”œâ”€â”€ DTOs/
-â”‚   â”œâ”€â”€ Services/
-â”‚   â”‚   â”œâ”€â”€ Interfaces/
-â”‚   â”‚   â””â”€â”€ Implementations/
-â”‚   â””â”€â”€ Mappings/                 â† AutoMapper profiles (BLL DTOs)
-â”‚
-â””â”€â”€ VaccinationTracker/           â† Presentation Layer (MVC)
-    â”œâ”€â”€ Controllers/
-    â”‚   â”œâ”€â”€ HomeController.cs
-    â”‚   â”œâ”€â”€ ChildController.cs
-    â”‚   â”œâ”€â”€ VaccinationRecordController.cs
-    â”‚   â”œâ”€â”€ AppointmentController.cs
-    â”‚   â”œâ”€â”€ AdverseReactionController.cs
-    â”‚   â”œâ”€â”€ VaccineSideEffectController.cs
-    â”‚   â”œâ”€â”€ ComplaintController.cs
-    â”‚   â””â”€â”€ AwarenessController.cs
-    â”œâ”€â”€ Areas/
-    â”‚   â””â”€â”€ Admin/
-    â”‚       â”œâ”€â”€ Controllers/
-    â”‚       â”‚   â”œâ”€â”€ ChildrenController.cs
-    â”‚       â”‚   â”œâ”€â”€ VaccinationRecordsController.cs
-    â”‚       â”‚   â”œâ”€â”€ AppointmentsController.cs
-    â”‚       â”‚   â”œâ”€â”€ AdverseReactionsController.cs (Admin)
-    â”‚       â”‚   â”œâ”€â”€ VaccineSideEffectsController.cs
-    â”‚       â”‚   â”œâ”€â”€ ComplaintsController.cs
-    â”‚       â”‚   â””â”€â”€ AwarenesssController.cs
-    â”‚       â””â”€â”€ Views/
-    â”œâ”€â”€ ViewModels/
-    â”œâ”€â”€ Mappings/                 â† AutoMapper profiles (ViewModels)
-    â”œâ”€â”€ Views/
-    â””â”€â”€ wwwroot/
+‚
+ VaccinationTracker.sln
+‚
+ VaccinationTracker.DAL/       â† Data Access Layer
+‚    Models/                   â† Domain entities
+‚    Data/
+‚   ‚    VaccinationContext.cs
+‚   ‚    DbSeeder.cs
+‚   ‚    Migrations/
+‚    Repositories/             â† Generic + specific repositories
+‚    UnitOfWork/
+‚
+ VaccinationTracker.BLL/       â† Business Logic Layer
+‚    DTOs/
+‚    Services/
+‚   ‚    Interfaces/
+‚   ‚    Implementations/
+‚    Mappings/                 â† AutoMapper profiles (BLL DTOs)
+‚
+ TEFLY/           â† Presentation Layer (MVC)
+     Controllers/
+    ‚    HomeController.cs
+    ‚    ChildController.cs
+    ‚    VaccinationRecordController.cs
+    ‚    AppointmentController.cs
+    ‚    AdverseReactionController.cs
+    ‚    VaccineSideEffectController.cs
+    ‚    ComplaintController.cs
+    ‚    AwarenessController.cs
+     Areas/
+    ‚    Admin/
+    ‚        Controllers/
+    ‚       ‚    ChildrenController.cs
+    ‚       ‚    VaccinationRecordsController.cs
+    ‚       ‚    AppointmentsController.cs
+    ‚       ‚    AdverseReactionsController.cs (Admin)
+    ‚       ‚    VaccineSideEffectsController.cs
+    ‚       ‚    ComplaintsController.cs
+    ‚       ‚    AwarenesssController.cs
+    ‚        Views/
+     ViewModels/
+     Mappings/                 â† AutoMapper profiles (ViewModels)
+     Views/
+     wwwroot/
 ```
 
 ---
