@@ -109,14 +109,14 @@ TEFLY follows a strictly enforced **3-Layer Architecture** implemented as separa
 
 ### Role-Based Routing
 
-- **Admin** â†’ redirected to the `Admin` Area with full management access.
-- **User (Parent)** â†’ accesses the user-facing interface: children, records, appointments, awareness.
+- **Admin** ’ redirected to the `Admin` Area with full management access.
+- **User (Parent)** ’ accesses the user-facing interface: children, records, appointments, awareness.
 
 ### Request Flow (Example: Create Appointment)
 
 1. Anti-Forgery token validation and model binding in the Controller.
 2. Controller delegates to `IAppointmentService` via constructor injection.
-3. Service applies business rules and maps ViewModel â†’ DTO â†’ Entity.
+3. Service applies business rules and maps ViewModel ’ DTO ’ Entity.
 4. Repository persists the entity via `IUnitOfWork`.
 5. Controller returns redirect with `TempData` success message.
 
@@ -128,9 +128,9 @@ TEFLY follows a strictly enforced **3-Layer Architecture** implemented as separa
 | :--- | :--- | :--- |
 | **ADR-001** | 3-Layer MVC over Clean Architecture | Reduces delivery risk for a 5-member team within the DEPI timeline while preserving a clear, auditable separation of concerns. |
 | **ADR-002** | Repository + Unit of Work | Provides a consistent data access abstraction, simplifies testing, and centralizes transaction management. |
-| **ADR-003** | AutoMapper for all layer boundaries | Enforces strict ViewModel â†” DTO â†” Entity separation; prevents domain model leakage into the Presentation layer. |
+| **ADR-003** | AutoMapper for all layer boundaries | Enforces strict ViewModel ” DTO ” Entity separation; prevents domain model leakage into the Presentation layer. |
 | **ADR-004** | ASP.NET Core Identity (cookie-based) | Sufficient for an MVC application with server-rendered views; avoids unnecessary JWT complexity for this use case. |
-| **ADR-005** | Separate BLL and DAL projects | Physical project separation enforces layer boundaries at compile time â€” not just by convention. |
+| **ADR-005** | Separate BLL and DAL projects | Physical project separation enforces layer boundaries at compile time ” not just by convention. |
 
 ---
 
@@ -147,7 +147,7 @@ TEFLY follows a strictly enforced **3-Layer Architecture** implemented as separa
 | `ApplicationUser` | Extends `IdentityUser`; linked to Children |
 | `Child` | Belongs to a User; has VaccinationRecords, Appointments, AdverseReactions |
 | `Vaccine` | Has VaccinationSchedules, VaccinationRecords, VaccineSideEffects |
-| `VaccinationSchedule` | Links Vaccine â†’ AgeStage â†’ DoseNumber |
+| `VaccinationSchedule` | Links Vaccine ’ AgeStage ’ DoseNumber |
 | `VaccinationRecord` | Records a completed vaccination for a Child |
 | `Appointment` | Booking for a Child's upcoming vaccination |
 | `AdverseReaction` | Post-vaccination reaction linked to Child and Vaccine |
@@ -178,11 +178,11 @@ TEFLY follows a strictly enforced **3-Layer Architecture** implemented as separa
 
 | Layer | Implementation |
 | :--- | :--- |
-| Authentication | ASP.NET Core Identity â€” cookie-based |
+| Authentication | ASP.NET Core Identity ” cookie-based |
 | Authorization | Role-based: `[Authorize(Roles = "Admin")]` / `[Authorize]` |
 | Admin Isolation | Dedicated `Admin` Area, inaccessible to regular users |
 | Input Validation | Anti-Forgery tokens on all POST actions + server-side `ModelState` validation |
-| Data Access | All queries go through the Service â†’ Repository â†’ UnitOfWork chain |
+| Data Access | All queries go through the Service ’ Repository ’ UnitOfWork chain |
 
 ---
 
