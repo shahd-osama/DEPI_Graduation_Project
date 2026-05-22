@@ -10,12 +10,12 @@
 
 ---
 
-**TEFLY** (Arabic: ØªÙÙ„ÙŠ â€” "My Child") is a centralized pediatric health and vaccination tracking platform developed under Egypt's **Digital Egypt Pioneers Initiative (DEPI)**. The platform replaces Egypt's fragmented, paper-based vaccination tracking system with a unified digital solution that helps parents monitor their children's full immunization history.
+**TEFLY** (Arabic:"My Child") is a centralized pediatric health and vaccination tracking platform developed under Egypt's **Digital Egypt Pioneers Initiative (DEPI)**. The platform replaces Egypt's fragmented, paper-based vaccination tracking system with a unified digital solution that helps parents monitor their children's full immunization history.
 
-> **Project Name:** VaccinationTracker â€” TEFLY  
+> **Project Name:** VaccinationTracker ” TEFLY  
 > **Version:** v1.0.0  
-> **Team:** PentApex â€” Egypt  
-> **Initiative:** DEPI â€” Egypt Vision 2030, Digital Healthcare Pillar  
+> **Team:** PentApex ” Egypt  
+> **Initiative:** DEPI ” Egypt Vision 2030, Digital Healthcare Pillar  
 > **Classification:** DEPI Graduation Submission
 
 ---
